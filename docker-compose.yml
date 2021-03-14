@@ -1,0 +1,72 @@
+version: '3.5'
+
+services:
+
+  database1:
+    image: postgis/postgis:latest
+    restart: on-failure
+    container_name: full_db_postgres
+    environment:
+      TZ: "Europe/Moscow"
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+      DATABASE_HOST: ${DB_HOST}
+    ports:
+      - "5432:5432"
+    volumes:
+      - database1_volume:/var/lib/postgresql/data
+      - ./utils.sh:/docker-entrypoint-initdb.d/utils.sh
+      - ./my_backup.sql:/opt/my_backup.sql
+    networks:
+      - fullstack
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    depends_on:
+      - database1
+    ports:
+      - "5050:80"
+    networks:
+      - fullstack
+    restart: unless-stopped
+
+  goapp:
+    container_name: full_app
+    restart: on-failure
+    build: .
+    ports:
+      - "80:80"
+    depends_on:
+      - database1
+    networks:
+      - fullstack
+
+volumes:
+  database1_volume:
+
+networks:
+  fullstack:
+    driver: bridge
+
+
+  # reverse proxy container (nginx)
+#  nginx:
+#    image: nginx:alpine
+#    ports:
+#      - "80:80"
+#    volumes:
+#      - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf
+#      - static:/opt/services/djangoapp/static
+#      - media:/opt/services/djangoapp/media
+#    environment:
+#        - TZ=Europe/Moscow
+#    networks:
+#      - database1_network
+#      - nginx_network
+#    depends_on:
+#      - djangoapp

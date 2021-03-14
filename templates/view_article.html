@@ -1,0 +1,41 @@
+<!--view_article.html-->
+{{ template "header.html" .}}
+<br><br>
+{{if .found}}
+    <ul class="list-group">
+        <li class="list-group-item">
+            <a style="text-decoration: none;" href="/article/view/{{.payload.ID}}">
+                <!--Display the title of the article -->
+                <h2>{{.payload.Title}}</h2>
+            </a>
+        </li>
+        <li class="list-group-item">
+            <span class="badge bg-success">
+                about
+            </span>
+            <span class="badge bg-success">
+                    {{.payload.Genre}}
+            </span>
+            <span class="badgebg-success">
+                by
+                </span>
+            <span class="badge bg-success">
+                {{.payload.Author}}
+            </span>
+        </li>
+    </ul>
+    <br>
+    <div class="container">
+        {{.payload.Content}}
+    </div>
+
+{{else}}
+<div class="jumbotron">
+    <h1 class="display-4">Article not found !</h1>
+    <hr class="my-4">
+    <br>
+    <a class="btn btn-primary btn-lg" href="/" role="button">Go Home</a>
+</div>
+{{end}}
+<!--Embed the footer.html template at this location-->
+{{ template "footer.html" .}}

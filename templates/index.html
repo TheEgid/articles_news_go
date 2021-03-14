@@ -1,0 +1,39 @@
+<!--index.html-->
+
+<!--Embed the header.html template at this location-->
+{{ template "header.html" .}}
+<br><br>
+  <h1>Latest Articles</h1>
+
+  {{range .payload }}
+  <!--Create the link for the article based on its ID-->
+
+  <ul class="list-group">
+    <li class="list-group-item">
+      <a style="text-decoration: none;" href="/article/view/{{.ID}}">
+        <!--Display the title of the article -->
+          <h2>{{.Title}}</h2>
+      </a>
+    </li>
+      <li class="list-group-item">
+        <span class="badge rounded-pill bg-danger">
+          about
+        </span>
+        <span class="badge rounded-pill bg-success">
+              {{.Genre}}
+        </span>
+        <span class="badge rounded-pill bg-danger">
+            by
+          </span>
+        <span class="badge rounded-pill bg-info text-dark">
+            {{.Author}}
+        </span>
+      </li>
+  </ul>
+
+  <br>
+  <br>
+{{end}}
+
+<!--Embed the footer.html template at this location-->
+{{ template "footer.html" .}}

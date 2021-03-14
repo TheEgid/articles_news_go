@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13a62afa-1523-43d1-8b08-4318f92defcb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.sh" beforeDir="false" afterPath="$PROJECT_DIR$/utils.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="C:\Users\in_one_pc\sdk\go1.16" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1pTuzMPbX7JucxcRq40pcnFqqon" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="articles-site-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.database1: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="database1" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml.database1: Compose Deployment" />
+      <item itemvalue="Go Build.go build main.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.database1: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13a62afa-1523-43d1-8b08-4318f92defcb" name="Default Changelist" comment="" />
+      <created>1615219662991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615219662991</updated>
+      <workItem from="1615219665092" duration="4543000" />
+      <workItem from="1615224440857" duration="12442000" />
+      <workItem from="1615312719277" duration="4830000" />
+      <workItem from="1615317587008" duration="5274000" />
+      <workItem from="1615390179967" duration="7000000" />
+      <workItem from="1615397836966" duration="4367000" />
+      <workItem from="1615404364343" duration="2707000" />
+      <workItem from="1615437468746" duration="4484000" />
+      <workItem from="1615482959660" duration="7125000" />
+      <workItem from="1615490562677" duration="8466000" />
+      <workItem from="1615569371916" duration="3724000" />
+      <workItem from="1615578658475" duration="5422000" />
+      <workItem from="1615620540409" duration="6474000" />
+      <workItem from="1615641383172" duration="6872000" />
+      <workItem from="1615653340680" duration="7212000" />
+      <workItem from="1615703048793" duration="859000" />
+      <workItem from="1615708363834" duration="2568000" />
+      <workItem from="1615711031153" duration="440000" />
+      <workItem from="1615712892525" duration="22000" />
+      <workItem from="1615713268086" duration="3975000" />
+      <workItem from="1615719022424" duration="621000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add backup">
+      <created>1615239949434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615239949434</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactoring">
+      <created>1615490081069</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615490081069</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Makefile">
+      <created>1615495144910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615495144910</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix">
+      <created>1615714150781</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615714150781</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add backup" />
+    <MESSAGE value="Refactoring" />
+    <MESSAGE value="Add Makefile" />
+    <MESSAGE value="Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="561" y="343" key="#GOROOT" timestamp="1615219707816">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="561" y="343" key="#GOROOT/0.0.1536.824@0.0.1536.824" timestamp="1615219707816" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615623866027">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1615623866027" />
+    <state x="456" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615400777819">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="456" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1615400777819" />
+    <state x="484" y="122" key="#docker-compose.yml.database1:_Compose_Deployment" timestamp="1615315984844">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="122" key="#docker-compose.yml.database1:_Compose_Deployment/0.0.1536.824@0.0.1536.824" timestamp="1615315984844" />
+    <state x="484" y="38" key="#go_build_main.go" timestamp="1615318146092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="38" key="#go_build_main.go/0.0.1536.824@0.0.1536.824" timestamp="1615318146092" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1615714149213">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1615714149213" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1615318144640">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615318144640" />
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1615710978734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615710978734" />
+    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1615710978734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615710978734" />
+    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1615710978734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615710978734" />
+    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1615710978734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615710978734" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1615714158589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615714158589" />
+    <state x="376" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615643766327">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="376" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1615643766327" />
+    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615714170062">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1615714170062" />
+    <state x="477" y="14" width="581" height="795" key="find.popup" timestamp="1615713740794">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="14" width="581" height="795" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1615713740794" />
+  </component>
+</project>
