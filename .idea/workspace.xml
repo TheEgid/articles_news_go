@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13a62afa-1523-43d1-8b08-4318f92defcb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.sh" beforeDir="false" afterPath="$PROJECT_DIR$/utils.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="Push.Settings">
     <force-push-targets>
@@ -44,7 +44,7 @@
     </force-push-targets>
   </component>
   <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="articles-site-go" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -81,6 +81,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Docker.docker-compose.yml.database1: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -116,6 +117,10 @@
       <workItem from="1615712892525" duration="22000" />
       <workItem from="1615713268086" duration="3975000" />
       <workItem from="1615719022424" duration="621000" />
+      <workItem from="1615725610431" duration="98000" />
+      <workItem from="1618339915242" duration="185000" />
+      <workItem from="1618340553038" duration="221000" />
+      <workItem from="1618854220994" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="Add backup">
       <created>1615239949434</created>
@@ -152,6 +157,9 @@
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src" />
+    </ignored-roots>
     <MESSAGE value="Add backup" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Add Makefile" />
@@ -190,22 +198,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615318144640" />
-    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1615710978734">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1618340099921">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615710978734" />
-    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1615710978734">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618340099921" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1618340099921">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615710978734" />
-    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1615710978734">
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618340099921" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1618340099921">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615710978734" />
-    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1615710978734">
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618340099921" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1618340099921">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615710978734" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618340099921" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1615725679517">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615725679517" />
     <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1615714158589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
